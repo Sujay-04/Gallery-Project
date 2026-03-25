@@ -35,12 +35,5 @@ Ek modern aur responsive Image Gallery application jise **React.js** aur **Tailw
     ```bash
     npm run dev
     ```
-
-## 🤖 AI Collaboration
-Is project ke development process mein AI ka mahatvapurna yogdaan raha hai:
-* **Logic Optimization**: Pagination aur API calls ke flow ko behtar banane mein help li gayi.
-* **CSS Refinement**: Tailwind classes ke combination se pixel-perfect responsive design achieve kiya gaya.
-* **Debugging**: Component structure aur state management ke errors ko fast solve kiya gaya.
-
 ---
 Developed by **Sujay Singh**
