@@ -1,16 +1,46 @@
-# React + Vite
+Aapke project ke liye ek professional `README.md` file niche di gayi hai. Isme Features, Tech Stack aur AI integration ko detail mein explain kiya gaya hai:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Dynamic Image Explorer
 
-Currently, two official plugins are available:
+Ek modern aur responsive Image Gallery application jise **React.js** aur **Tailwind CSS** ka upyog karke banaya gaya hai. Ye project high-quality images ko dynamic tarike se fetch karta hai aur ek smooth user experience provide karta hai.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* **Responsive Grid Layout**: Tailwind CSS ka use karke ek adaptive grid banaya gaya hai jo mobile, tablet aur desktop devices par auto-adjust hota hai.
+* **Custom Pagination**: Ek robust pagination system jo API parameters (`page` aur `limit`) ko manage karta hai, jisse users bina rukawat ke hazaron images browse kar sakte hain.
+* **Smooth Image Loading**: Images ke "atak-atak" kar load hone ki samasya ko door karne ke liye `onLoad` event aur opacity transitions ka use kiya gaya hai, jo ek premium fade-in effect deta hai.
+* **Interactive UI/UX**:
+    * **Hover Zoom**: Mouse le jaane par images smooth scale (zoom) hoti hain.
+    * **Persistent Metadata**: Author ka naam hamesha image ke bottom par ek dark gradient overlay ke saath dikhta hai takki readability bani rahe.
+* **AI Enhanced Development**: Code optimization, complex transitions, aur responsive logic ko refine karne ke liye AI (Gemini) ka upyog kiya gaya hai.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend**: React.js (Hooks like `useState`, `useEffect`)
+* **Styling**: Tailwind CSS (v4)
+* **API Client**: Axios
+* **Data Source**: Picsum Photos API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup
+
+1.  **Repository Clone Karein:**
+    ```bash
+    git clone https://github.com/your-username/image-explorer.git
+    ```
+2.  **Dependencies Install Karein:**
+    ```bash
+    npm install axios
+    ```
+3.  **Project Run Karein:**
+    ```bash
+    npm run dev
+    ```
+
+## 🤖 AI Collaboration
+Is project ke development process mein AI ka mahatvapurna yogdaan raha hai:
+* **Logic Optimization**: Pagination aur API calls ke flow ko behtar banane mein help li gayi.
+* **CSS Refinement**: Tailwind classes ke combination se pixel-perfect responsive design achieve kiya gaya.
+* **Debugging**: Component structure aur state management ke errors ko fast solve kiya gaya.
+
+---
+Developed by **Sujay Singh**
